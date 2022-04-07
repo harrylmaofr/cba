@@ -1,0 +1,177 @@
+body{
+    background-color: black;
+    font-family: Trebuchet MS;
+    text-align: center;
+    color: white;
+}
+
+
+
+.alink {
+    font-size: 10x;
+    background-image: linear-gradient(225deg,#7cff28,#007eff)!important;
+    filter: drop-shadow(0 20px 20px #7cff283d);
+    color: black;
+    border-radius: 100px;
+    padding-top: 10px;
+    margin-top: 30px;
+    padding-left: 40px;
+    margin-left: 20px;
+    padding-right: 40px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+  
+.alink:hover {
+    background-image: linear-gradient(-225deg,#ff61ff,#c0be4f)!important;
+    filter: drop-shadow(0 20px 20px #db1eb23d);
+    color: black;
+}
+  
+  
+.content{
+    align-self: center;
+    align-items: center;
+    position:static;
+    border: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 900px;
+    max-width: 100%;
+
+}
+
+.content2{
+    color: black;
+    align-self: center;
+    align-items: center;
+    position:static;
+    border: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 900px;
+    max-width: 100%;
+    animation-name: backgroundColorPalette;
+	  animation-duration: 8s;
+	  animation-iteration-count: infinite;
+	  animation-direction: alternate;
+	  animation-timing-function: linear; 
+
+}
+@keyframes backgroundColorPalette {
+	0% {
+		background: #b868e3;
+	}
+	20% {
+		background: #e76e93;
+	}
+	40% {
+		background: #fbec79;
+	}
+	60% {
+		background: #93e981;
+	}
+  80% {
+		background: #7abbd6;
+	}
+  100% {
+		background: #7075ff;
+	}
+}  
+
+.img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+}
+  
+  
+h1 {
+    background-image: linear-gradient(-225deg,#ff28ff,#c0bd1f)!important;
+    filter: drop-shadow(0 20px 20px #db1eb23d);
+    color: black;
+    padding: 7px;
+    border: 10px;
+    border: black;
+    border-radius: 25px;
+}
+
+h1:hover {
+    background-image: linear-gradient(225deg,#7cff28,#007eff)!important;
+    filter: drop-shadow(0 20px 20px #7cff283d);
+}
+
+.h1br {
+    margin: 0 auto;
+    width: 200px;
+    max-width: 100%;
+}
+
+.h2br {
+    margin: 0 auto;
+    width: 230px;
+    max-width: 100%;
+}
+
+.malware {
+    display: inline-table;
+    border: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    align-self: center;
+    align-items: center;
+    padding: 20px;
+    margin: 17px;
+    max-width: 100%;
+    width: 300px;
+
+}
+
+h3 {
+  background: linear-gradient(225deg,#7cff28,#007eff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3:hover {
+  background: linear-gradient(-225deg,#ff28ff,#c0bd1f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ph4:hover {
+  background: linear-gradient(225deg,#b7ff8a,#66b3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pr {
+	background: linear-gradient(-45deg, #ff0000, #fed920, #39fe5a, #248eff);
+	background-size: 300%;
+  font-family: Trebuchet MS;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 150%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 4s ease-in-out infinite;
+	-moz-animation: animated_text 4s ease-in-out infinite;
+	-webkit-animation: animated_text 4s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
